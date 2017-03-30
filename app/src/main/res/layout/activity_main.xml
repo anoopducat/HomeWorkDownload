@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.homeworkdownload.MainActivity">
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/btn_dnld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DownLoad"
+        />
+
+    <Button
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:layout_below="@+id/btn_dnld"
+        android:id="@+id/btn_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View"
+        />
+</RelativeLayout>
